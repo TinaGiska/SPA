@@ -2704,8 +2704,9 @@ footer .copy{
 
 .ren{
   text-align: center;
-  width:453px;
-  height:69px;
+  width:80%;
+  height:80%;
+  padding-bottom: 20px;
 }
 
 .auto{
@@ -2715,6 +2716,10 @@ margin-block-end: 1em;
 margin-inline-start: 0px;
 margin-inline-end: 0px;
 text-align: center;
+}
+
+h4 {
+  text-decoration: underline;
 }
 
 
