@@ -1130,7 +1130,7 @@ section ul,.list ul{
 }
 section ul li,.list ul li{
     padding-left:25px;
-    background:url(//zaciszedrwesa.pl/wp-content/themes/zaciszedrwesa/css/../img/list.svg) no-repeat left 10px;
+    background:url(//.pl/wp-content/themes/zaciszedrwesa/css/../img/list.svg) no-repeat left 10px;
     background-size:17px 13px
 }
 .elementor-editor-active section ul li,.elementor-editor-active .list ul li{
@@ -1143,10 +1143,10 @@ section ul li,.list ul li{
     }
 }
 header{
-    background:url(../images/osada-lusowo-21-front.jpg) no-repeat top center;
+    background:url(../images/certy.jpg) no-repeat top center;
     background-size: 100%;
     position:relative;
-    color:#fff
+    color:white;
 }
 @media(min-width:1921px){
     header{
@@ -1154,7 +1154,7 @@ header{
     }
 }
 header .header__inner{
-    background:#89C6F5;
+    background:#99CCFF;
     position:absolute;
     top:0;
     left:0;
