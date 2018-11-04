@@ -1130,7 +1130,7 @@ section ul,.list ul{
 }
 section ul li,.list ul li{
     padding-left:25px;
-    background:url(//zaciszedrwesa.pl/wp-content/themes/zaciszedrwesa/css/../img/list.svg) no-repeat left 10px;
+    background:url(//.pl/wp-content/themes/zaciszedrwesa/css/../img/list.svg) no-repeat left 10px;
     background-size:17px 13px
 }
 .elementor-editor-active section ul li,.elementor-editor-active .list ul li{
@@ -1143,10 +1143,10 @@ section ul li,.list ul li{
     }
 }
 header{
-    background:url(../images/osada-lusowo-21-front.jpg) no-repeat top center;
+    background:url(../images/certy.jpg) no-repeat top center;
     background-size: 100%;
     position:relative;
-    color:#fff
+    color:white;
 }
 @media(min-width:1921px){
     header{
@@ -1154,7 +1154,7 @@ header{
     }
 }
 header .header__inner{
-    background:#89C6F5;
+    background:#0066CC;
     position:absolute;
     top:0;
     left:0;
@@ -1366,7 +1366,7 @@ header .header__logo img{
 .menu-top-desktop {
   position: sticky;
   position: -webkit-sticky;
-  background-color: #89C6F5;
+  background-color: #0066CC;
   top: 0; /* required */
   text-align: center;
   z-index: 99;
@@ -2704,9 +2704,14 @@ footer .copy{
 
 .ren{
   text-align: center;
-  width:453px;
-  height:69px;
+  width:50%;
+  padding-bottom: 20px;
 }
+
+@media(max-width:767px){
+  .ren{
+    width:100%;
+  }
 
 .auto{
 display: inline-block;
@@ -2715,6 +2720,10 @@ margin-block-end: 1em;
 margin-inline-start: 0px;
 margin-inline-end: 0px;
 text-align: center;
+}
+
+h4 {
+  text-decoration: underline;
 }
 
 
