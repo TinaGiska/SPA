@@ -2705,9 +2705,13 @@ footer .copy{
 .ren{
   text-align: center;
   width:50%;
-  height:50%;
   padding-bottom: 20px;
 }
+
+@media(max-width:767px){
+  .ren{
+    width:100%;
+  }
 
 .auto{
 display: inline-block;
