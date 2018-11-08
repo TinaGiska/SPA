@@ -1143,7 +1143,7 @@ section ul li,.list ul li{
     }
 }
 header{
-    background:url(../images/certy.jpg) no-repeat top center;
+    background:url(../images/usługi.jpg) no-repeat top center;
     background-size: 100%;
     position:relative;
     color:white;
@@ -1154,7 +1154,7 @@ header{
     }
 }
 header .header__inner{
-    background:#0066CC;
+    background:black;
     position:absolute;
     top:0;
     left:0;
@@ -1366,7 +1366,7 @@ header .header__logo img{
 .menu-top-desktop {
   position: sticky;
   position: -webkit-sticky;
-  background-color: #0066CC;
+  background-color: black;
   top: 0; /* required */
   text-align: center;
   z-index: 99;
@@ -2723,6 +2723,10 @@ text-align: center;
 }
 
 h4 {
+  text-decoration: underline;
+}
+
+.underline{
   text-decoration: underline;
 }
 
