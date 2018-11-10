@@ -1058,6 +1058,33 @@ a.file:hover{
     filter:alpha(opacity=50);
     opacity:.5
 }
+
+.button{
+  background-color: #00A4EF;
+  display: inline-block;
+  border: none;
+  margin:0px;
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  align-items: flex-start;
+cursor: default;
+color: buttontext;
+}
+
+.fab{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.fa:hover{
+  text-shadow: 60%;
+
+}
 h1{
     font-size:36pt;
     line-height:1.4;
@@ -2728,6 +2755,13 @@ h4 {
 
 .underline{
   text-decoration: underline;
+}
+
+.social{
+  text-align: center;
+  text-shadow: 80%;
+width:20%; height:30%;
+  margin-top: 30px;
 }
 
 
