@@ -1200,7 +1200,7 @@ header .header__contact{
     position:relative
 }
 header .header__logo{
-    text-align:center;
+    margin-top: 0%;
     z-index:2000;
     position:relative
 }
@@ -1210,17 +1210,17 @@ header .header__logo{
     }
 }
 header .header__logo img{
-    width:200px;
+    width:150px;
     height:auto
 }
 @media(min-width:768px) and (max-width:991px){
     header .header__logo img{
-        width:180px
+        width:120px
     }
 }
 @media(max-width:767px){
     header .header__logo img{
-        width:100px
+        width:60px
     }
 }
 #nav-icon{
@@ -1711,8 +1711,26 @@ header .header__logo img{
   height:300px;
   text-align: center;
   border-radius: 50%;
-  margin-left: 120px;
 }
+
+}
+
+@media(min-width:768px) and (max-width:991px){
+    .shape{
+        width:120px;
+        height:120px;
+
+
+    }
+}
+@media(max-width:767px){
+    .shape{
+      width:50px;
+      height:50px;
+
+    }
+}
+
 
 @media(max-width:767px){
     .choose .table-responsive{
