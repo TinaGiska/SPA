@@ -1172,6 +1172,7 @@ section ul li,.list ul li{
 header{
     background:url(../images/usługi.jpg) no-repeat top center;
     background-size: 100%;
+        /* background-size: cover; */
     position:relative;
     color:white;
 }
@@ -1195,7 +1196,7 @@ header .header__top{
 }
 header .header__contact{
     line-height:1.4;
-    margin-top:40%;
+    margin-top: 34%;
     z-index:2000;
     text-align: center;
     display: block;
@@ -1204,8 +1205,9 @@ header .header__contact{
 }
 header .header__logo{
     margin-top: 0%;
-    z-index:2000;
-    position:relative
+    z-index:1000;
+    padding-left: 2%;
+    padding-top: 1%;
 }
 @media(max-width:767px){
     header .header__logo{
@@ -2207,6 +2209,11 @@ footer .copy{
     text-align:center;
     font-size:10pt;
     color:#b3b3b3
+}
+
+h4 {
+  padding: 20px 0 10px;
+  font-weight: 600;
 }
  .tos-caption>div,.tos-slide,.tos-slide>*{
     box-sizing:border-box
