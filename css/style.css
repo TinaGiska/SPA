@@ -1157,8 +1157,8 @@ header .header__name h3{
 
 @media(max-width:767px){
     header .header__name h3{
-        font-size:13pt;
-        margin-bottom:40px
+        font-size:10pt;
+        margin-bottom:35px
     }
 }
 
