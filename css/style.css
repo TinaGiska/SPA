@@ -1001,41 +1001,7 @@ header a{
     color:#fff;
     font-weight:400
 }
-header a:hover,header a:focus{
-    text-decoration:none;
-    color:#fff;
-    filter:alpha(opacity=80);
-    opacity:.8
-}
-@media(min-width:768px) and (max-width:991px){
-    .header__contact__tel a{
-        font-size:11pt
-    }
-}
-.header__contact__tel a:before{
-    content:'';
-    display:inline-block;
-    width:14px;
-    height:14px;
-    vertical-align:baseline;
-    margin-right:9px
-}
-.header__contact__tel a:nth-last-of-type(1):before{
-    display:none
-}
-@media(min-width:768px) and (max-width:991px){
-    .header__contact__mail a{
-        font-size:11pt
-    }
-}
-.header__contact__mail a:before{
-    content:'';
-    display:inline-block;
-    width:18px;
-    height:14px;
-    vertical-align:baseline;
-    margin-right:5px
-}
+
 .copy a{
     font-weight:400;
     color:#b3b3b3
@@ -1080,10 +1046,8 @@ color: buttontext;
     -webkit-font-smoothing: antialiased;
 }
 
-
 .fa:hover{
   text-shadow: 60%;
-
 }
 h1{
     font-size:36pt;
@@ -1155,20 +1119,7 @@ footer h3{
 section ul,.list ul{
     margin-bottom:20px
 }
-section ul li,.list ul li{
-    padding-left:25px;
-    background:url(//.pl/wp-content/themes/zaciszedrwesa/css/../img/list.svg) no-repeat left 10px;
-    background-size:17px 13px
-}
-.elementor-editor-active section ul li,.elementor-editor-active .list ul li{
-    background:none
-}
-@media(max-width:767px){
-    .page-id-22 section ul li,.page-id-22 .list ul li{
-        background:none;
-        padding-left:0
-    }
-}
+
 header{
     background:url(../images/usługi.jpg) no-repeat top center;
     background-size: 100%;
@@ -1194,15 +1145,32 @@ header .header__top{
     position:relative;
     padding-top:20px
 }
-header .header__contact{
-    line-height:1.4;
+header .header__name h3{
+    font-size:45px;
     margin-top: 34%;
-    z-index:2000;
+    margin-left: 25%;
     text-align: center;
-    display: block;
-
+    display: inline-block;
+    color:#F1F1F1;
 
 }
+
+@media(max-width:767px){
+    header .header__name h3{
+        font-size:13pt;
+        margin-bottom:40px
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+    header .header__name h3{
+      font-size:20pt;
+      margin-bottom:30px;
+      margin-left:5%;
+    }
+}
+
+
 header .header__logo{
     margin-top: 0%;
     z-index:1000;
@@ -1692,7 +1660,7 @@ header .header__logo img{
     text-align:center
 }
 .gallery{
-    margin-top:50px
+    margin-top:20px
 }
 .gallery .gallery__item{
     margin-top:20px;
