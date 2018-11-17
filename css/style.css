@@ -1126,7 +1126,6 @@ header{
     background-size: cover;
     position:relative;
     color:white;
-    margin-top: -58px;
 }
 @media(min-width:1921px){
     header{
