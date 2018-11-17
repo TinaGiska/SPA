@@ -1685,6 +1685,7 @@ header .header__logo img{
   text-align: center;
   border-radius: 50%;
   padding-bottom: 15px;
+  margin: auto;
 }
 
 }
