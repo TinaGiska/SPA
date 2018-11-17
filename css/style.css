@@ -1122,8 +1122,8 @@ section ul,.list ul{
 
 header{
     background:url(../images/usługi.jpg) no-repeat top center;
-    background-size: 100%;
-        /* background-size: cover; */
+    /* background-size: 100%; */
+    background-size: cover;
     position:relative;
     color:white;
 }
@@ -1183,17 +1183,17 @@ header .header__logo{
     }
 }
 header .header__logo img{
-    width:150px;
+    width:200px;
     height:auto
 }
 @media(min-width:768px) and (max-width:991px){
     header .header__logo img{
-        width:120px
+        width:150px
     }
 }
 @media(max-width:767px){
     header .header__logo img{
-        width:40px
+        width:150px
     }
 }
 #nav-icon{
@@ -1409,7 +1409,7 @@ header .header__logo img{
 .menu{
     width:100%;
     height:100%;
-    background:#E6DD63;
+    background:#000;
     position:fixed;
     top:-100%;
     left:0;
@@ -1588,7 +1588,7 @@ header .header__logo img{
 }
 .keywords .keywords__title{
     font-weight:700;
-    color:#D4AF37;
+    color:#000;
     font-size:18pt
 }
 @media(min-width:768px) and (max-width:991px){
@@ -1768,7 +1768,7 @@ header .header__logo img{
     }
 }
 .choose .table .table__row .table__row__item .available{
-    color:#D4AF37;
+    color:#000;
     font-weight:700
 }
 .choose .table .table__row .table__row__item .sold{
@@ -1822,8 +1822,8 @@ header .header__logo img{
     }
 }
 .tabs-nav .tabs-nav__item--active{
-    color:#D4AF37;
-    border:2px solid #D4AF37;
+    color:#000;
+    border:2px solid #000;
     -moz-transition:all .3s ease;
     -o-transition:all .3s ease;
     -webkit-transition:all .3s ease;
@@ -1866,7 +1866,7 @@ header .header__logo img{
 .banner2 .banner2__bg{
     width:100%;
     height:100%;
-    background:#D4AF37;
+    background:#000;
     filter:alpha(opacity=70);
     opacity:.7;
     position:absolute;
