@@ -1126,6 +1126,7 @@ header{
     background-size: cover;
     position:relative;
     color:white;
+    margin-top: -58px;
 }
 @media(min-width:1921px){
     header{
@@ -1145,29 +1146,26 @@ header .header__top{
     position:relative;
     padding-top:20px
 }
+header .header__name {
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+}
 header .header__name h3{
     font-size:45px;
-    margin-top: 34%;
-    margin-left: 25%;
     text-align: center;
-    display: inline-block;
     color:#F1F1F1;
-
 }
 
 @media(max-width:767px){
-    header .header__name h3{
-        font-size:8pt;
-        margin-bottom:35px
-    }
+  header .header__name h3{
+      font-size:25px;
+  }
+
 }
 
 @media(min-width:768px) and (max-width:991px){
-    header .header__name h3{
-      font-size:20pt;
-      margin-bottom:30px;
-      margin-left:5%;
-    }
+
 }
 
 
